@@ -61,7 +61,7 @@
 <tr>
 <td>identifier</td>
 <td><a target='_blank' href="http://hl7.org/fhir/search.html#token">token</a></td>
-<td><p>Used to search by NHI number</p>
+<td><p>Used to search by NHI number. _include supports Observation &amp; Specimen</p>
 </td>
 </tr>
 </table>

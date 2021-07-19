@@ -12,10 +12,11 @@ Description:    "The DiagnosticReport resource exposed by Sysmex."
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>sysmex DiagnosticReport profile</div>"
 
 // elements not supported
-
+* modifierExtension 0..0
 * basedOn 0..0
 * encounter 0..0
 * effective[x] only dateTime
+* subject only Reference(Patient)
 * resultsInterpreter 0..0
 * imagingStudy 0..0
 * media 0..0
