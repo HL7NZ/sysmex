@@ -1,0 +1,24 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.org.nz.fhir.ig.sysmex
+canonical: http://hl7.org.nz/fhir/ig/sysmex
+name: sysmex
+title: Sysmex API
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  API: capabilityStatement.html
+  Profiles: profiles.html
+  Artifacts: artifacts.html
+  Issues: issued.html
+
